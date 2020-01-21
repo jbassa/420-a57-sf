@@ -56,5 +56,5 @@ Joel
 
 # Références
 
-* Cours Mickael swoala , Ecosystème IA , Cegep Sainte Foy
+* Cours Mickael Swawola , Ecosystème IA , Cegep Sainte Foy
 * https://github.com/SpencerPark/IJava#install-pre-built-binary
