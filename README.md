@@ -15,19 +15,22 @@ utilisé. Il ne reste qu'à installer Docker et construire une image en suivant 
 
 $ sudo apt update
 $ sudo apt install apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common
-$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - <br />
 
-→ ajoute la clé GPG officielle de Docker
-$ sudo apt-key fingerprint 0EBFCD88
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - <br />
+→ ajoute la clé GPG officielle de Docker <br />
+
+$ sudo apt-key fingerprint 0EBFCD88 <br />
 → vérifier les 8 derniers symbols de l'empreinte
 
 $ sudo add-apt-repository \
 "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
  $(lsb_release -cs) \ 
- Stable"
+ Stable" <br />
 → ajoute le dépôt stable 
+
 $ sudo apt-get update 
-$ sudo apt-get install docker-ce docker-ce-cli containerd.io 
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io <br />
+
 → installe la dernière version de Docker
 $ docker --version 
 $ systemctl status docker
@@ -46,6 +49,12 @@ https://hub.docker.com/editions/community/docker-ce-desktop-windows
 Naviguer vers cette url http://<adresse_ip>:8888/  
 Ex: http://localhost:8888/
 
-Voila tout est enfin pret pour visualiser le notebook machine learning avec Java :).
+Voila tout est enfin prêt pour visualiser le notebook machine learning avec Java :).
 
 Joel
+
+
+# Références
+
+* Cours Mickael swoala , Ecosystème IA , Cegep Sainte Foy
+* https://github.com/SpencerPark/IJava#install-pre-built-binary
