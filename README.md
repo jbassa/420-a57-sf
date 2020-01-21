@@ -30,9 +30,9 @@ $ sudo add-apt-repository \
 
 $ sudo apt-get update 
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io <br />
+→ installe la dernière version de Docker <br />
 
-→ installe la dernière version de Docker
-$ docker --version 
+$ docker --version <br />
 $ systemctl status docker
 
 ## Sur Windows
