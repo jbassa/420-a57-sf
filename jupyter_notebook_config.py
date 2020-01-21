@@ -38,14 +38,14 @@
 #------------------------------------------------------------------------------
 
 ## Set the Access-Control-Allow-Credentials: true header
-#c.NotebookApp.allow_credentials = False
+c.NotebookApp.allow_credentials = False
 
 ## Set the Access-Control-Allow-Origin header
 #  
 #  Use '*' to allow any origin to access your server.
 #  
 #  Takes precedence over allow_origin_pat.
-#c.NotebookApp.allow_origin = ''
+c.NotebookApp.allow_origin = '*'
 
 ## Use a regular expression for the Access-Control-Allow-Origin header
 #  
@@ -278,7 +278,7 @@ c.NotebookApp.open_browser = False
 #    from notebook.auth import passwd; passwd()
 #  
 #  The string should be of the form type:salt:hashed-password.
-#c.NotebookApp.password = ''
+c.NotebookApp.password = ''
 
 ## Forces users to use a password for the Notebook server. This is useful in a
 #  multi user environment, for instance when everybody in the LAN can access each
@@ -342,7 +342,7 @@ c.NotebookApp.open_browser = False
 #  
 #  Setting to an empty string disables authentication altogether, which is NOT
 #  RECOMMENDED.
-#c.NotebookApp.token = '<generated>'
+c.NotebookApp.token = ''
 
 ## Supply overrides for the tornado.web.Application that the Jupyter notebook
 #  uses.

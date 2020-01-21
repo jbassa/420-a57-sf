@@ -14,7 +14,8 @@ RUN wget https://github.com/SpencerPark/IJava/releases/download/v1.3.0/ijava-1.3
 RUN unzip ijava-1.3.0.zip
 # Installation du kernel Java 
 RUN /bin/bash -c 'python3 install.py'
-RUN mkdir /notebooks && /root/.jupyter
+RUN mkdir /notebooks 
+RUN mkdir /root/.jupyter
 COPY jupyter_notebook_config.py /root/.jupyter
 # Copie du fichier notebook 
 COPY demoIrisJava.ipynb /notebooks
