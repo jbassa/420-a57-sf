@@ -6,7 +6,7 @@ Apache spark ML et jupyter notebook pour écrire notre code.
 
 # Pérequis
 
-Afin de faciliter le partage et le test de cet exemple, l'outil de conteneurisation Docker https://www.docker.com/ sera 
+Afin de faciliter le partage et le test de ce exemple, l'outil de conteneurisation Docker https://www.docker.com/ sera 
 utilisé. Il ne reste qu'à installer Docker et construire une image en suivant ces recommandations.
 
 # Installation
@@ -42,7 +42,7 @@ https://hub.docker.com/editions/community/docker-ce-desktop-windows
 # Mise en oeuvre
 
 * Télécharger ou cloner le présent repertoire contenant le DockerFile
-* Se deplacer a la racine du répertoire 
+* Se déplacer à la racine du répertoire 
 * Construire l'image docker avec la commande **docker build -t <nom_de_votre_image> .**
 * Exécution du conteneur avec la commande **docker run -p 5000:5000 <nom_de_votre_image>**
 
@@ -57,4 +57,3 @@ Joel
 # Références
 
 * Cours Mickael Swawola , Ecosystème IA , Cegep Sainte Foy
-* https://github.com/SpencerPark/IJava#install-pre-built-binary
