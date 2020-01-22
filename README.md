@@ -44,7 +44,7 @@ https://hub.docker.com/editions/community/docker-ce-desktop-windows
 * Télécharger ou cloner le présent repertoire contenant le DockerFile
 * Se déplacer à la racine du répertoire 
 * Construire l'image docker avec la commande **docker build -t <nom_de_votre_image> .**
-* Exécution du conteneur avec la commande **docker run -p 5000:5000 <nom_de_votre_image>**
+* Exécution du conteneur avec la commande **docker run -p 8888:8888 <nom_de_votre_image>**
 
 Naviguer vers cette url http://<adresse_ip>:8888/  
 Ex: http://localhost:8888/
